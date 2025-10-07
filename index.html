@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Lonavala Tours & Travel</title>
-  <meta name="description" content="Discover Lonavala's lush green hills, waterfalls, dams, lakes, and forts." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lonavala Tours & Travel Guide | Lonavala Explorer</title>
+  <meta name="description" content="Discover Lonavala with curated tours: forts, waterfalls, lakes, and green valleys. Local guides, flexible itineraries, clear pricing.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<!-- Navigation -->
 <header>
   <div class="container nav">
-    <div class="logo">Lonavala Explorer</div>
-    <nav class="menu">
-      <a href="index.html" class="active">Home</a>
+    <div class="logo"><a href="home.html">Lonavala Explorer</a></div>
+    <nav class="menu" aria-label="Main Navigation">
+      <a href="home.html" class="active">Home</a>
       <a href="tours.html">Tours</a>
+      <a href="packages.html">Packages</a>
       <a href="attractions.html">Attractions</a>
       <a href="gallery.html">Gallery</a>
       <a href="contact.html">Contact</a>
@@ -24,87 +23,76 @@
   </div>
 </header>
 
-<!-- Hero Section -->
-<section class="hero">
+<section class="hero" role="banner" aria-label="Lonavala green valley">
   <div class="hero-media">
-    <img src="images/hero-green-valley.jpg" alt="Lonavala Green Valley" />
-    <div class="hero-overlay"></div>
+    <img src="images/hero-green-valley.jpg" alt="Misty green Lonavala valley at sunrise">
   </div>
+  <div class="hero-overlay"></div>
   <div class="hero-text">
-    <div class="hero-inner">
-      <h1>Discover Lonavala</h1>
-      <p class="sub">Misty hills, waterfalls, lakes, and timeless forts – a monsoon paradise.</p>
-      <a class="cta" href="tours.html">Explore Tours →</a>
+    <h1>Discover Lonavala</h1>
+    <p class="sub">Curated tours of forts, waterfalls, lakes & lush valleys with local guides</p>
+    <a href="tours.html" class="cta">Explore Tours</a>
+  </div>
+</section>
+
+<section>
+  <div class="container prose">
+    <h2>Why Travel With Us</h2>
+    <p>Travel with us is smooth, safe, and meaningful. Our local guides know the right timings for misty viewpoints, safe waterfall approaches, and quiet forest drives. Safety comes first with weather-aware pacing and family-friendly routes. We keep groups small, follow eco practices, and support local communities, so your trip benefits the people and places you visit. Flexibility is our strength—whether you want an easy day, a photo-focused plan, or a mix of treks and drives, we adapt. With clear pricing and thoughtful itineraries, we turn Lonavala into more than a trip—it becomes an experience. </p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container">
+    <h2>Featured Experiences</h2>
+    <div class="grid cols-3">
+      <article class="card">
+        <div class="card-media media-3x2"><img src="images/fort-trek.jpg" alt="Mossy steps on Lohagad trek"></div>
+        <div class="card-body"><h3>Lohagad Trek</h3><p>The Lohagad Trek is Lonavala’s most loved hike—easy, scenic, and steeped in history. The trail climbs steadily through mossy steps and stone gateways, reaching a fort top with sweeping Sahyadri views. In monsoon, mist and greenery make it magical; in winter, crisp skies reveal endless valleys. The highlight is the Vinchu Kata, a dramatic ridge spur shaped like a scorpion’s tail. With safe pacing and local stories, we make the trek accessible for beginners, families, and history buffs alike.</p><a href="tours.html#fort-trek" class="cta">Learn More</a></div>
+      </article>
+      <article class="card">
+        <div class="card-media media-3x2"><img src="images/monsoon-cascades.jpg" alt="Monsoon waterfall through forest"></div>
+        <div class="card-body"><h3>Monsoon Cascades</h3><p>Short trails to seasonal waterfalls at peak flow with safe, dry approaches.</p><a href="tours.html#cascades" class="cta">Learn More</a></div>
+      </article>
+      <article class="card">
+        <div class="card-media media-3x2"><img src="images/scenic-reservoir.jpg" alt="Reservoir reflecting hills at sunset"></div>
+        <div class="card-body"><h3>Lake & Dam Drive</h3><p>The Lake & Dam Drive is Lonavala at its most relaxed. This scenic loop strings together reservoirs and lakes with carefully timed stops—still reflections in the morning, breezy dam views by midday, and golden sunsets at dusk. Roads are smooth, stops are easy to access, and pacing is tailored for families, photographers, or anyone seeking a calm day. Along the way, enjoy tea at local stalls and quiet lakeside moments. We travel respectfully, supporting communities and protecting nature.</p><a href="tours.html#reservoir" class="cta">Learn More</a></div>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- Must-see Section -->
 <section>
   <div class="container">
-    <div class="section-head">
-      <h2>Must-see in Lonavala</h2>
-      <div class="muted">Hills • Reservoirs • Waterfalls • Lakes</div>
-    </div>
-
-    <div class="grid cols-4">
-      <!-- Rain-washed Hills -->
-      <article class="card">
-        <div class="card-media">
-          <img src="images/rain-washed-hills.jpg" alt="Rain-washed Hills" />
-        </div>
-        <div class="card-body">
-          <span class="tag">Mountains</span>
-          <h3>Rain-washed Hills</h3>
-          <p class="muted">Classic Sahyadri slopes covered in monsoon mist.</p>
-        </div>
-      </article>
-
-      <!-- Scenic Reservoirs -->
-      <article class="card">
-        <div class="card-media">
-          <img src="images/scenic-reservoir.jpg" alt="Scenic Reservoirs" />
-        </div>
-        <div class="card-body">
-          <span class="tag">Reservoir</span>
-          <h3>Scenic Reservoirs</h3>
-          <p class="muted">Calm waters framed by lush green hills and dams.</p>
-        </div>
-      </article>
-
-      <!-- Monsoon Cascades -->
-      <article class="card">
-        <div class="card-media">
-          <img src="images/monsoon-cascades.jpg" alt="Monsoon Cascades" />
-        </div>
-        <div class="card-body">
-          <span class="tag">Waterfalls</span>
-          <h3>Monsoon Cascades</h3>
-          <p class="muted">Seasonal waterfalls at their roaring best.</p>
-        </div>
-      </article>
-
-      <!-- Still Waters -->
-      <article class="card">
-        <div class="card-media">
-          <img src="images/still-waters.jpg" alt="Still Waters Lake" />
-        </div>
-        <div class="card-body">
-          <span class="tag">Lakes</span>
-          <h3>Still Waters</h3>
-          <p class="muted">Peaceful lakes perfect for golden-hour strolls.</p>
-        </div>
-      </article>
+    <h2>How It Works</h2>
+    <div class="grid cols-3">
+      <div class="card"><div class="card-body"><h3>1. Choose</h3><p>Pick a tour or package matching your dates and interests.</p></div></div>
+      <div class="card"><div class="card-body"><h3>2. Customize</h3><p>We tailor routes, timings, and pace to your group.</p></div></div>
+      <div class="card"><div class="card-body"><h3>3. Experience</h3><p>Travel safely, learn local stories, and capture great photos.</p></div></div>
     </div>
   </div>
 </section>
 
-<!-- Footer -->
-<footer>
+<section class="alt">
   <div class="container">
-    © 2025 Lonavala Explorer
+    <h2>What Travelers Say</h2>
+    <div class="testimonials">
+      <blockquote>“Perfectly timed trek—mist rolled in as we reached the ramparts.”<cite>— Aditi, Pune</cite></blockquote>
+      <blockquote>“The lake drive was calm, scenic, and kid-friendly. Loved the chai stops.”<cite>— Mehul, Mumbai</cite></blockquote>
+      <blockquote>“Familiar hills, new angles—felt like traveling with a local friend.”<cite>— Priya, Bengaluru</cite></blockquote>
+    </div>
   </div>
-</footer>
+</section>
 
+<section>
+  <div class="container strip">
+    <h3>Ready to plan your Lonavala day?</h3>
+    <a class="cta" href="contact.html">Get a Custom Plan</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2025 Lonavala Explorer · <a href="tours.html">Tours</a> · <a href="attractions.html">Attractions</a> · <a href="contact.html">Contact</a></div>
+</footer>
 </body>
 </html>
